@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #064e3b;
+    color: white;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* ACCUEIL */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #ecfdf5;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #d4af37;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* CATEGORIES */
+
+.categories {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.categories h2,
+.about h2 {
+    margin-bottom: 30px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.cards div {
+    width: 150px;
+    padding: 30px;
+    background: #f9fafb;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+
+/* ABOUT */
+
+.about {
+    text-align: center;
+    padding: 50px 10%;
+    background: #f3f4f6;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #064e3b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+footer p {
+    margin: 10px;
+}
+
+
+/* TELEPHONE */
+
+@media(max-width:700px){
+
+header {
+    flex-direction: column;
+}
+
+nav {
+    margin-top:20px;
+}
+
+.hero h1 {
+    font-size:32px;
+}
+
+  }
