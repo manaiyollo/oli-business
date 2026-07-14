@@ -11,7 +11,35 @@
 
 </head>
 
+<script>
 
+function envoyerCommande(){
+
+let nom = document.querySelector('input[type="text"]').value;
+
+let numero = document.querySelector('input[type="tel"]').value;
+
+let adresse = document.querySelector('textarea').value;
+
+
+let message =
+"Bonjour Oli Business,%0A%0A" +
+"Je souhaite passer une commande.%0A%0A" +
+"Nom : " + nom +
+"%0ANuméro : " + numero +
+"%0AAdresse : " + adresse +
+"%0A%0APaiement : Livraison";
+
+
+window.open(
+"https://wa.me/243978262141?text=" + message,
+"_blank"
+);
+
+
+}
+
+</script>
 <body>
 
 
@@ -59,8 +87,7 @@ Remplissez le formulaire et payez à la livraison.
 Informations du client
 </h2>
 
-
-<form>
+<form onsubmit="envoyerCommande(); return false;">
 
 
 <label>
