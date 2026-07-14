@@ -133,3 +133,74 @@ nav {
 }
 
   }
+/* AMELIORATIONS OLI BUSINESS */
+
+input,
+textarea,
+select {
+
+width: 80%;
+padding: 15px;
+border-radius: 10px;
+border: 1px solid #ddd;
+font-size: 16px;
+
+}
+
+
+textarea {
+
+height: 120px;
+
+}
+
+
+
+.cards div {
+
+transition: 0.3s;
+box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+.cards div:hover {
+
+transform: translateY(-8px);
+
+}
+
+
+
+button {
+
+color: white;
+background: #064e3b;
+font-weight: bold;
+
+}
+
+
+
+button:hover {
+
+background: #d4af37;
+color: black;
+
+}
+
+
+
+.hero {
+
+border-bottom: 3px solid #d4af37;
+
+}
+
+
+
+h1, h2, h3 {
+
+letter-spacing: 1px;
+
+    }
